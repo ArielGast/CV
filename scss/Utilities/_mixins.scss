@@ -1,0 +1,6 @@
+@mixin estilo-tipograf($tipo,$size,$weight, $color){
+    font-family: $tipo;
+    font-size: $size;
+    font-weight: $weight;
+    color: $color;
+}

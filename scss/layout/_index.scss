@@ -1,0 +1,111 @@
+@import "../Utilities/mixins";
+.container {
+    margin-left: 5%;
+}
+.aside-content {
+    background-color: $color-aside;
+    min-height: 100%;
+    text-align: center;
+    img {
+        margin: 3% auto;
+        width: 85%;
+        border-radius: 40%;
+    }
+}
+.separador-aside {
+    width: 80%;
+    margin:  8% auto;
+    height: 0.1rem;
+    background: black;
+}
+.separador-aside__section {
+    margin-bottom: 10%;
+}
+h2 {
+    @include estilo-tipograf($font-principal, 2rem, 600, $color1);
+    text-align: left;
+    margin-left: 4%;
+}
+.descrip-personal {
+    @include estilo-tipograf($font-secundaria, 1rem, 300, $color1);
+    text-align: left;
+    margin-left: 4%;
+    padding-bottom: 10%;
+}
+.aptitudes-aside {
+    margin-bottom: 10%;
+    padding-left: 5%;
+    li {
+        @include estilo-tipograf($font-secundaria, 1rem, 300, $color1);
+        text-align: left;
+        margin-left: 0;
+        padding-bottom: 3%;
+    }
+}
+h1 {
+    text-align: left;
+    margin-left: 5%;
+    @include estilo-tipograf($font-principal, 4.5rem, 600,$color-aside);
+    span {
+        color: $color2;
+    }
+}
+.contactos {
+    margin-top: 5%;
+    margin-left: 4%;
+    text-align: left;
+    ul {
+        list-style: none;
+        li {
+            @include estilo-tipograf($font-secundaria, 1rem, 400, $color2);
+        }
+    }
+}
+.separador-main {
+    width: 80%;
+    margin:  5% auto;
+    height: 0.2rem;
+    background: $color-aside;    
+}
+.formation {
+    margin-bottom: 3%;
+}
+.formation__ul {
+    display: flex;
+    list-style: none;
+    justify-content: left;
+    padding-left: 6%;
+    li {
+        @include estilo-tipograf($font-secundaria, 1rem, 500, $color2);
+        padding-left: 3%;
+    }
+}
+h3 {
+    @include estilo-tipograf($font-principal, 2rem, 600, $color-aside);
+    text-align: left;
+    margin-left: 5%; 
+}
+p {
+    @include estilo-tipograf($font-secundaria, 1rem, 400, $color2);
+    text-align: left;
+    margin-left: 5%;
+    span {
+        font-weight: 800;
+    }
+}
+.experience {
+    margin-bottom: 3%;
+}
+.aptitudes {
+    padding-left: 10%;
+    li {
+        margin-left: 0;
+        text-align: left;
+        @include estilo-tipograf($font-secundaria, 1rem, 400, $color2);
+        span {
+            font-weight: 800;
+        } 
+        
+    }
+
+}

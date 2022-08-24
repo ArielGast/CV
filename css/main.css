@@ -5,4 +5,207 @@
 
 /* Importando fonts Roboto y Lato */
 html {
-  font-size: 18px; }
+  font-size: 20px; }
+
+.container {
+  margin-left: 5%; }
+
+.aside-content {
+  background-color: #25727c;
+  min-height: 100%;
+  text-align: center; }
+  .aside-content img {
+    margin: 3% auto;
+    width: 85%;
+    border-radius: 40%; }
+
+.separador-aside {
+  width: 80%;
+  margin: 8% auto;
+  height: 0.1rem;
+  background: black; }
+
+.separador-aside__section {
+  margin-bottom: 10%; }
+
+h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+  color: white;
+  text-align: left;
+  margin-left: 4%; }
+
+.descrip-personal {
+  font-family: "Lato", sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  color: white;
+  text-align: left;
+  margin-left: 4%;
+  padding-bottom: 10%; }
+
+.aptitudes-aside {
+  margin-bottom: 10%;
+  padding-left: 5%; }
+  .aptitudes-aside li {
+    font-family: "Lato", sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    color: white;
+    text-align: left;
+    margin-left: 0;
+    padding-bottom: 3%; }
+
+h1 {
+  text-align: left;
+  margin-left: 5%;
+  font-family: "Roboto", sans-serif;
+  font-size: 4.5rem;
+  font-weight: 600;
+  color: #25727c; }
+  h1 span {
+    color: black; }
+
+.contactos {
+  margin-top: 5%;
+  margin-left: 4%;
+  text-align: left; }
+  .contactos ul {
+    list-style: none; }
+    .contactos ul li {
+      font-family: "Lato", sans-serif;
+      font-size: 1rem;
+      font-weight: 400;
+      color: black; }
+
+.separador-main {
+  width: 80%;
+  margin: 5% auto;
+  height: 0.2rem;
+  background: #25727c; }
+
+.formation {
+  margin-bottom: 3%; }
+
+.formation__ul {
+  display: flex;
+  list-style: none;
+  justify-content: left;
+  padding-left: 6%; }
+  .formation__ul li {
+    font-family: "Lato", sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    color: black;
+    padding-left: 3%; }
+
+h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #25727c;
+  text-align: left;
+  margin-left: 5%; }
+
+p {
+  font-family: "Lato", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  color: black;
+  text-align: left;
+  margin-left: 5%; }
+  p span {
+    font-weight: 800; }
+
+.experience {
+  margin-bottom: 3%; }
+
+.aptitudes {
+  padding-left: 10%; }
+  .aptitudes li {
+    margin-left: 0;
+    text-align: left;
+    font-family: "Lato", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: black; }
+    .aptitudes li span {
+      font-weight: 800; }
+
+@media screen and (max-width: 1024px) {
+  html {
+    font-size: 18px; }
+  h2 {
+    font-size: 1.5rem; } }
+
+@media screen and (max-width: 768px) {
+  h2 {
+    font-size: 1rem;
+    margin-left: 2%; }
+  .descrip-personal {
+    font-size: 0.8rem;
+    margin-left: 2%; }
+  .aptitudes-aside li {
+    font-size: 0.7rem; }
+  h1 {
+    font-size: 2.5rem; }
+  .contactos ul li {
+    font-size: 0.8rem; }
+  .formation__ul li {
+    font-size: 0.8rem; }
+  h3 {
+    font-size: 1rem; }
+  p {
+    font-size: 0.8rem; }
+  .aptitudes li {
+    font-size: 0.7rem; } }
+
+@media screen and (max-width: 425px) {
+  h2 {
+    font-size: 0.8rem;
+    margin-left: 1%; }
+  .descrip-personal {
+    font-size: 0.6rem;
+    margin-left: 2%; }
+  .aptitudes-aside li {
+    font-size: 0.6rem;
+    margin-left: 0; }
+    .aptitudes-aside li i {
+      font-size: 0.3rem; }
+  h1 {
+    font-size: 2rem; }
+  .contactos ul li {
+    font-size: 0.6rem; }
+  .formation {
+    margin-bottom: 2%; }
+  .formation__ul li {
+    font-size: 0.6rem; }
+  h3 {
+    font-size: 0.8rem; }
+  p {
+    font-size: 0.6rem; }
+  .aptitudes li {
+    font-size: 0.6rem; } }
+
+@media screen and (max-width: 320px) {
+  h2 {
+    font-size: 0.6rem; }
+  h1 {
+    font-size: 1.3rem; } }
+
+@media print and (orientation: portrait) {
+  h2, h3 {
+    font-size: 20px; }
+  .descrip-personal {
+    font-size: 14px; }
+  .aptitudes-aside li {
+    font-size: 14px; }
+  h1 {
+    font-size: 50px; }
+  .formation__ul li {
+    font-size: 14px; }
+  p {
+    font-size: 14px; }
+  .aptitudes li {
+    font-size: 14px; } }

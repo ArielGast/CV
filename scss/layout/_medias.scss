@@ -1,0 +1,135 @@
+@media screen and (max-width: 1024px) {
+    html {
+        font-size: 18px;
+    }
+    h2 {
+        font-size: 1.5rem;
+    }
+
+}
+@media screen and (max-width: 768px) {
+    h2{
+        font-size: 1rem;
+        margin-left: 2%;
+    }
+    .descrip-personal {
+        font-size: 0.8rem;
+        margin-left: 2%;
+    }
+    .aptitudes-aside{
+        li {
+            font-size: 0.7rem;
+        }
+    }
+    h1 {
+        font-size: 2.5rem;
+    }
+    .contactos{
+        ul {
+            li {
+                font-size: 0.8rem;
+            }
+        }
+    }
+    .formation__ul {
+        li {
+            font-size: 0.8rem;
+        }
+    }
+    h3 {
+        font-size: 1rem;
+    }
+    p {
+        font-size: 0.8rem;
+    }
+    .aptitudes {
+        li {
+            font-size: 0.7rem;
+        }
+    }
+}
+@media screen and (max-width: 425px) {
+    h2{
+        font-size: 0.8rem;
+        margin-left: 1%;
+    }
+    .descrip-personal {
+        font-size: 0.6rem;
+        margin-left: 2%;
+    }
+    .aptitudes-aside{
+        li {
+            font-size: 0.6rem;
+            margin-left: 0;
+            i {
+                font-size: 0.3rem;
+            }
+        }
+    }
+    h1 {
+        font-size: 2rem;
+    }
+    .contactos{
+        ul {
+            li {
+                font-size: 0.6rem;
+            }
+        }
+    }
+    .formation {
+        margin-bottom: 2%;
+    }
+    .formation__ul {
+        li {
+            font-size: 0.6rem;
+        }
+    }
+    h3 {
+        font-size: 0.8rem;
+    }
+    p {
+        font-size: 0.6rem;
+    }
+    .aptitudes {
+        li {
+            font-size: 0.6rem;
+        }
+    }
+}    
+@media screen and (max-width: 320px) {
+    h2 {
+        font-size: 0.6rem;
+    }
+    h1 {
+        font-size: 1.3rem;
+    }    
+}
+@media print and (orientation: portrait) {
+    h2,h3 {
+        font-size: 20px;
+    }
+    .descrip-personal {
+        font-size: 14px;
+    }
+    .aptitudes-aside {
+        li {
+            font-size: 14px;
+        }
+    }
+    h1 {
+        font-size: 50px;
+    }
+    .formation__ul {
+        li {
+            font-size: 14px;
+        }
+    }
+    p {
+        font-size: 14px;
+    }
+    .aptitudes {
+        li {
+            font-size: 14px;
+        }
+    }
+}
