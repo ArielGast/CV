@@ -11,13 +11,13 @@ html {
   margin-left: 5%; }
 
 .aside-content {
-  background-color: #25727c;
+  background-color: #485274;
   min-height: 100%;
   text-align: center; }
   .aside-content img {
     margin: 3% auto;
-    width: 85%;
-    border-radius: 40%; }
+    width: 60%;
+    border-radius: 2%; }
 
 .separador-aside {
   width: 80%;
@@ -38,12 +38,12 @@ h2 {
 
 .descrip-personal {
   font-family: "Lato", sans-serif;
-  font-size: 1rem;
-  font-weight: 300;
-  color: white;
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: black;
   text-align: left;
   margin-left: 4%;
-  padding-bottom: 10%; }
+  padding-bottom: 5%; }
 
 .aptitudes-aside {
   margin-bottom: 10%;
@@ -63,48 +63,58 @@ h1 {
   font-family: "Roboto", sans-serif;
   font-size: 4.5rem;
   font-weight: 600;
-  color: #25727c; }
+  color: #485274; }
   h1 span {
     color: black; }
 
 .contactos {
+  width: 100%;
   margin-top: 5%;
-  margin-left: 4%;
-  text-align: left; }
+  /* text-align: left; */
+  display: flex;
+  justify-content: space-evenly; }
   .contactos ul {
-    list-style: none; }
+    list-style: none;
+    width: 100%; }
     .contactos ul li {
       font-family: "Lato", sans-serif;
       font-size: 1rem;
       font-weight: 400;
-      color: black; }
+      color: black;
+      padding-top: 2%; }
+
+.contactos__div {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  margin-right: 10%; }
+  .contactos__div img {
+    width: 25%; }
+  .contactos__div p {
+    font-family: "Lato", sans-serif;
+    font-size: 0.7rem;
+    font-weight: 300;
+    color: black;
+    text-align: center; }
 
 .separador-main {
   width: 80%;
   margin: 5% auto;
   height: 0.2rem;
-  background: #25727c; }
+  background: #485274; }
 
-.formation {
-  margin-bottom: 3%; }
-
-.formation__ul {
-  display: flex;
-  list-style: none;
-  justify-content: left;
-  padding-left: 6%; }
-  .formation__ul li {
-    font-family: "Lato", sans-serif;
-    font-size: 1rem;
-    font-weight: 500;
-    color: black;
-    padding-left: 3%; }
+.formation p {
+  font-family: "Lato", sans-serif;
+  font-size: 1rem;
+  font-weight: 200;
+  color: white;
+  padding-left: 3%; }
 
 h3 {
   font-family: "Roboto", sans-serif;
   font-size: 2rem;
   font-weight: 600;
-  color: #25727c;
+  color: #485274;
   text-align: left;
   margin-left: 5%; }
 
@@ -116,22 +126,23 @@ p {
   text-align: left;
   margin-left: 5%; }
   p span {
-    font-weight: 800; }
+    font-weight: 700; }
 
 .experience {
   margin-bottom: 3%; }
 
-.aptitudes {
-  padding-left: 10%; }
-  .aptitudes li {
+.aptitudes-title {
+  padding-left: 10%;
+  list-style: none; }
+  .aptitudes-title .item {
     margin-left: 0;
     text-align: left;
     font-family: "Lato", sans-serif;
     font-size: 1rem;
-    font-weight: 400;
-    color: black; }
-    .aptitudes li span {
-      font-weight: 800; }
+    font-weight: 800;
+    color: black;
+    margin-bottom: 1%;
+    margin-top: 2%; }
 
 @media screen and (max-width: 1024px) {
   html {
@@ -198,14 +209,20 @@ p {
   h2, h3 {
     font-size: 20px; }
   .descrip-personal {
-    font-size: 14px; }
+    font-size: 12px; }
+  .contactos ul li {
+    font-size: 10px; }
+  .contactos__div p {
+    font-size: 10px; }
   .aptitudes-aside li {
-    font-size: 14px; }
+    font-size: 12px; }
   h1 {
-    font-size: 50px; }
-  .formation__ul li {
-    font-size: 14px; }
+    font-size: 44px; }
+  .formation p {
+    font-size: 12px; }
   p {
-    font-size: 14px; }
-  .aptitudes li {
-    font-size: 14px; } }
+    font-size: 12px; }
+  .aptitudes-title .item {
+    font-size: 12px; }
+  .aptitudes-list li {
+    font-size: 12px; } }
