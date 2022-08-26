@@ -70,14 +70,30 @@ h1 {
 .contactos {
   margin-top: 5%;
   margin-left: 4%;
-  text-align: left; }
+  display: flex;
+  justify-content: space-evenly; }
   .contactos ul {
-    list-style: none; }
+    list-style: none;
+    width: 100%; }
     .contactos ul li {
       font-family: "Lato", sans-serif;
       font-size: 1rem;
       font-weight: 400;
       color: black; }
+
+.contactos__div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end; }
+  .contactos__div img {
+    width: 30%;
+    margin-right: 10%; }
+  .contactos__div p {
+    font-family: "Lato", sans-serif;
+    font-size: 0.7rem;
+    font-weight: 300;
+    color: black;
+    margin-right: 10%; }
 
 .separador-main {
   width: 80%;
@@ -201,6 +217,10 @@ p {
     font-size: 14px; }
   .aptitudes-aside li {
     font-size: 14px; }
+  .contactos ul li {
+    font-size: 14px; }
+  .contactos__div p {
+    font-size: 8px; }
   h1 {
     font-size: 50px; }
   .formation__ul li {

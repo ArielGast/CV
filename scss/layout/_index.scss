@@ -53,12 +53,27 @@ h1 {
 .contactos {
     margin-top: 5%;
     margin-left: 4%;
-    text-align: left;
+    display: flex;
+    justify-content: space-evenly;
     ul {
         list-style: none;
+        width: 100%;
         li {
             @include estilo-tipograf($font-secundaria, 1rem, 400, $color2);
         }
+    }
+}
+.contactos__div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    img {
+        width: 30%;
+        margin-right: 10%;
+    }
+    p {
+        @include estilo-tipograf($font-secundaria,0.7rem,300,$color2);
+        margin-right: 10%;
     }
 }
 .separador-main {
