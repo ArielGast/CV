@@ -16,7 +16,7 @@
     width: 80%;
     margin:  8% auto;
     height: 0.1rem;
-    background: black;
+    background: $color3;
 }
 .separador-aside__section {
     margin-bottom: 10%;
@@ -28,9 +28,11 @@ h2 {
 }
 .descrip-personal {
     @include estilo-tipograf($font-secundaria, 1.1rem, 400, $color2);
-    text-align: left;
+    text-align: justify;
     margin-left: 4%;
+    margin-right: 5%;
     padding-bottom: 5%;
+
 }
 .aptitudes-aside {
     margin-bottom: 10%;
@@ -47,13 +49,12 @@ h1 {
     margin-left: 5%;
     @include estilo-tipograf($font-principal, 4.5rem, 600,$color-aside);
     span {
-        color: $color2;
+        color: $color3;
     }
 }
 .contactos {
     width: 100%;
     margin-top: 5%;
-    /* text-align: left; */
     display: flex;
     justify-content: space-evenly;
     ul     {
