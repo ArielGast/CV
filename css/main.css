@@ -11,13 +11,13 @@ html {
   margin-left: 5%; }
 
 .aside-content {
-  background-color: #25727c;
+  background-color: #3a506b;
   min-height: 100%;
   text-align: center; }
   .aside-content img {
     margin: 3% auto;
-    width: 85%;
-    border-radius: 40%; }
+    width: 100%;
+    border-radius: 15%; }
 
 .separador-aside {
   width: 80%;
@@ -63,7 +63,7 @@ h1 {
   font-family: "Roboto", sans-serif;
   font-size: 4.5rem;
   font-weight: 600;
-  color: #25727c; }
+  color: #3a506b; }
   h1 span {
     color: black; }
 
@@ -120,7 +120,7 @@ h3 {
   font-family: "Roboto", sans-serif;
   font-size: 2rem;
   font-weight: 600;
-  color: #25727c;
+  color: #3a506b;
   text-align: left;
   margin-left: 5%; }
 
@@ -149,6 +149,10 @@ p {
     .aptitudes li span {
       font-weight: 800; }
 
+.subtitle {
+  font-style: italic;
+  color: #3a506b;
+}
 @media screen and (max-width: 1024px) {
   html {
     font-size: 18px; }
