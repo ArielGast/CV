@@ -11,12 +11,12 @@ html {
   margin-left: 5%; }
 
 .aside-content {
-  background-color: #3a506b;
+  /*background-color: #3a506b; */
   min-height: 100%;
   text-align: center; }
   .aside-content img {
     margin: 3% auto;
-    width: 100%;
+    width: 70%;
     border-radius: 15%; }
 
 .separador-aside {
@@ -61,7 +61,7 @@ h1 {
   text-align: left;
   margin-left: 5%;
   font-family: "Roboto", sans-serif;
-  font-size: 4.5rem;
+  font-size: 3.5rem;
   font-weight: 600;
   color: #3a506b; }
   h1 span {
@@ -118,8 +118,8 @@ h1 {
 
 h3 {
   font-family: "Roboto", sans-serif;
-  font-size: 2rem;
-  font-weight: 600;
+  font-size: 1.5rem;
+  font-weight: 400;
   color: #3a506b;
   text-align: left;
   margin-left: 5%; }
